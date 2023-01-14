@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+}
+
+body{
+    border: 2px solid;
+    width: 1684px;
+    height: 4760px;
+    
+   
+}
+
+main{
+    background-color:  #FFFFFF;
+}
+
+footer{
+    background-color: #FFFFFF;
+}
+
+
+/* --------------header start --------------- */
+
+header{
+    padding-top: 50px;
+    background-color: #ff900e1a;
+
+}
+
+
+/* --------------------Nav start--------------- */
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 228px;
+}
+
+.nav-title h1 {
+    font-weight: 700;
+    font-size: 45px;
+    font-family: 'Work Sans';
+    color: #131313;
+}
+
+ul{ 
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list ul>li{
+ list-style: none;
+ font-weight: 500;
+ font-size: 18px;
+ font-family: 'Work Sans';
+ color: #424242;
+}
+
+
+
+/*----------Nav end--------- */
+
+
+/*------------ banner start-------- */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 102px;
+    align-items: center;
+    gap: 32px;
+}
+
+.banner-info{
+    width: 862px;
+    height: 225px;
+    text-align: center;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    font-family: 'Work Sans';
+    color: #131313;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 32px;
+}
+.banner-img img{
+    margin: 50px 0px;
+    width: 1440px;
+    height: 700px;
+}
+
+
+.primary-button {
+    width: 180px;
+    height: 64px;
+    border: 5px;
+    border-radius: 5px;
+    background-color: #487a7e;
+    
+    color: #FFFFFF;
+}
+
+.primary-button:hover{
+    background-color: #ff1c8d;
+    transition: .2s;
+}
+
+/*-------------------header end----------------- */
+
+
+
+/* ------------------main start------------------ */
+
+
+.about-container{
+   display: flex;
+   align-items: center;
+   margin-left: 301px;
+   margin-top: 85px;
+   gap: 73px;
+   width: 1318px;
+   height: 708px;
+   
+}
+
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    width: 537px;
+    height: 304px;
+    gap: 30px;
+}
+
+
+.about-title {
+    font-weight: 500;
+    font-size: 45px;
+    width: 468px;
+    height: 106px;
+}
+
+/*---------about-title-span---------- */
+.one{
+    color: #727272;
+}
+.two{
+    color: #131313;
+}
+
+.three{
+    color: #FF900E;
+}
+/*---------about-title-span---------- */
+
+.about-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+
+.ten-years {
+    width: 180px;
+    height: 64px;
+    border: 5px;
+    border-radius: 5px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 100px;
+    margin-top: 782px;
+}
+
+
+
+/* <!-----------------Features section start --> */
+
+.features-container {
+    margin: 130px;
+    display: flex;
+    gap: 54px;
+    align-items: center;
+    width: 1440px;
+    height: 1059px;
+}
+
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.features-heading .features-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 25px;
+}
+.horizontal{
+    display: flex;
+    gap: 21px;
+}
+
+hr{
+    color: #FF900E;
+    width: 5px;
+    height: 106px;
+    background-color: #FF900E;
+
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 45px;
+    width: 468px;
+    height: 106px;
+    color: #131313;
+}
+
+
+
+.features-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 10px;
+}
+
+
+
+.features-info {
+    display: flex;
+    flex-direction: column;
+    width: 586px;
+    height: 744px;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+/* ----------feature-img --------- */
+
+
+.feature-img{
+    background-image: url(../images/architect.png);
+    width: 875px;
+    height: 1059px;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.ten-years {
+    width: 415px;
+    height: 64px;
+    border: 5px;
+    border-radius: 5px;
+    background-color: #ff900eb5;
+    color: #FFFFFF;
+    padding: 79px 24px 207px 10px;
+    margin-top: 697px;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.ten-years:hover{
+
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: .5s;
+
+}
+
+.ten-years span {
+    font-weight: 500;
+    font-size: 41px;
+}
+
+
+
+
+
+
+
+.info-title{
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Work Sans';
+}
+
+/* <!-----------------Features section end --> */
+
+
+
+
+/* -------------------facts section -------------------------*/
+.facts-conainer{
+    margin: 130px 290px 180px 240px;
+
+}
+
+.facts-info{
+    margin-bottom: 100px;
+    width: 449px;
+    height: 53px;
+}
+
+.facts-title{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+
+.facts-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 10px;
+}
+
+.facts-card{
+    width: 241px;
+    height: 241px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #b9d373c9;
+}
+
+.facts-card:hover{
+    background-color: #f33aac;
+    transform: rotate(25deg);
+    transition: 1s;
+}
+
+.facts-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.facts-card img {
+    margin-top: 45px;
+    
+}
+
+
+
+.number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    font-family: 'Work Sans';
+}
+
+.shot-text {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* -------------------facts section end -------------------------*/
+
+
+
+/*--------------- sponspors-info------------------ */
+
+.sponspors-container{
+        width: 1439px;
+        height: 229px;
+        margin: 47px 240px 53px 115px;
+
+}
+
+.sponspors-info {
+    width: 542px;
+    height: 129px;
+    text-align: center;
+    margin: 180px 689px 55px 452px;
+}
+
+.sponspors-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponspors-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.sponspors{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+
+}
+
+/* ------------------main end------------------ */
+
+
+
+.copyright {
+    width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #FFF4E7;
+    margin: 130px;
+}
+
+.copyright-text{
+        text-align: center;
+        padding: 43px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #424242;
+}
+
+
+
+
+
