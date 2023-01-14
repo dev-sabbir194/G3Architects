@@ -1,21 +1,16 @@
 *{
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Open+Sans:wght@400;800&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
 
 body{
-    border: 2px solid;
+
     width: 1684px;
-    height: 4760px;
-    
-   
-}
-
-main{
+    height: 4760px; 
     background-color:  #FFFFFF;
-}
-
-footer{
-    background-color: #FFFFFF;
 }
 
 
