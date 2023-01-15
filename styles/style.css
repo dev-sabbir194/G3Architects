@@ -22,6 +22,9 @@ header{
 
 }
 
+footer{
+    background-color: #131313;
+}
 
 /* --------------------Nav start--------------- */
 
@@ -85,10 +88,12 @@ ul{
     font-size: 16px;
     margin-top: 32px;
 }
-.banner-img img{
+.banner-img{
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/banner.png);
     margin: 50px 0px;
     width: 1440px;
     height: 700px;
+    border-radius: 5px;
 }
 
 
@@ -412,25 +417,134 @@ hr{
 /* ------------------main end------------------ */
 
 
-
 .copyright {
     width: 1440px;
-    height: 100px;
+    height: 68px;
     border-radius: 8px;
     text-align: center;
     background-color: #FFF4E7;
-    margin: 130px;
+    margin-left: 100px;
 }
 
-.copyright-text{
-        text-align: center;
-        padding: 43px;
-        font-weight: 400;
-        font-size: 20px;
-        color: #424242;
+.copyright-text {
+    text-align: center;
+    padding: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fec3ff;
+    background: #7c7c7c;
+    border-radius: 10px;
 }
 
 
 
 
+
+
+/*------------------ footer-section start---------------- */
+/* Contact section */
+.contact{
+    display:flex ;
+    justify-content: space-around;
+    margin-top: 130px;
+    height: 577px;
+    background-color: #aeb7b9;
+}
+
+
+
+
+/*------------ contact part one start -------------*/
+.contact .Part-one{
+    width: 485px;
+    height: 317px;
+    margin-top: 130px;
+}
+
+.Part-one .title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #87ffe3;
+
+ }
+
+ .Part-one .description{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+ }
+
+ .contact-details{
+    width: 186px;
+    height: 146px;
+    color: #ffffff;
+    margin-top: 24px;
+ }
+
+ .contact-details .phone {
+        margin-top: 16px;
+        margin-bottom: 32px;
+ }
+/*------------ contact part one end -------------*/
+
+
+
+ /* ------ social-media start-------- */
+  .social-media{
+    margin-top: 32px;
+    width: 1184px;
+    height: 46px;
+  }
+
+ .icon-twitter {
+    margin-left: 17px;
+    margin-right: 18px;
+}
+ /* ------ social-media end-------- */
+
+
+/* --------contact part two subscribe button start------------ */
+
+.contact .part-two{
+    margin-top: 130px;
+    width: 325px;
+    height: 144px;
+}
+.part-two .title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #fffa59;
+}
+
+
+.subscribe-button{
+    margin-top: 16px;
+    width: 170px;
+    height: 64px;
+    color:#ffffff;
+    background-color: #005FAC;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #005FAC;
+}
+
+.email-input{
+    width: 325px;
+    height: 64px;
+    background: #ffc9c9;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 31px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.email-input:hover{
+    background-color: #87ffe3;
+    transform: rotateX('angle');
+    transition: .5s;
+}
 
